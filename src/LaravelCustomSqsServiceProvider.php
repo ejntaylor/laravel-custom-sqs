@@ -2,9 +2,9 @@
 
 namespace Ejntaylor\LaravelCustomSqs;
 
+use Ejntaylor\LaravelCustomSqs\Commands\LaravelCustomSqsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ejntaylor\LaravelCustomSqs\Commands\LaravelCustomSqsCommand;
 
 class LaravelCustomSqsServiceProvider extends PackageServiceProvider
 {

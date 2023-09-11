@@ -2,9 +2,9 @@
 
 namespace Ejntaylor\LaravelCustomSqs\Tests;
 
+use Ejntaylor\LaravelCustomSqs\LaravelCustomSqsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ejntaylor\LaravelCustomSqs\LaravelCustomSqsServiceProvider;
 
 class TestCase extends Orchestra
 {
