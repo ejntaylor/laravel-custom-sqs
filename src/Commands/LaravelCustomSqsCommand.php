@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ejntaylor\LaravelCustomSqs\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelCustomSqsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-custom-sqs';
 
     public $description = 'My command';
 

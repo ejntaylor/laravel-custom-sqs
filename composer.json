@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ejntaylor/laravel-custom-sqs",
+    "description": "Custom SQS for Laravel",
     "keywords": [
-        ":vendor_name",
+        "ejntaylor",
         "laravel",
-        ":package_slug"
+        "laravel-custom-sqs"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ejntaylor/laravel-custom-sqs",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Elliot Taylor",
+            "email": "elliot@raison.co",
             "role": "Developer"
         }
     ],
@@ -35,19 +35,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Ejntaylor\\LaravelCustomSqs\\": "src/",
+            "Ejntaylor\\LaravelCustomSqs\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Ejntaylor\\LaravelCustomSqs\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-laravel-custom-sqs --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Ejntaylor\\LaravelCustomSqs\\LaravelCustomSqsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelCustomSqs": "Ejntaylor\\LaravelCustomSqs\\Facades\\LaravelCustomSqs"
             }
         }
     },
